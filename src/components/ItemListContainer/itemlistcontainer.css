@@ -1,0 +1,34 @@
+.itemlistcontainer{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.itemlistcontainer .itemlist{
+  display: flex;
+  flex-wrap: wrap;
+}
+.itemlistcontainer .itemCar{
+  width: 300px;
+  margin: 70px;
+  padding: 20px;
+  border: 3px solid rgb(14, 214, 141);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itemCar .imgItem{
+  width: 100%;
+  border-radius: 7px;
+  background-color: rgb(39, 39, 39);
+}
+.itemCar .text-item{
+  padding: 5px 6px;
+}
+.imgItem{
+  width: 180px;
+}
+.detallesCs{
+  color: rgb(0, 255, 4);
+  text-transform: uppercase;
+}
