@@ -1,0 +1,16 @@
+.inputGen{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+}
+.labelGen{
+    padding: 6px;
+}
+.buttonSend{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 4px;
+}
+.buttonSend:hover{
+    background-color: grey;
+}
